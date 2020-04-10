@@ -125,3 +125,24 @@ header {
 }
 
 /* end of mission */
+/* collection */
+.card-shadow {
+  position: relative;
+  box-shadow: 5px 8px 20px #444;
+}
+.collection-heading {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 70%;
+  opacity: 0.7;
+  cursor: pointer;
+  background-color: #222;
+  transition: all 1s;
+}
+.collection-heading:hover {
+  opacity: 1;
+}
+/* end of collection */
